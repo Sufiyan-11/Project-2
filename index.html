@@ -9,22 +9,23 @@
 </head>
 <body>
     <h1>SIMPLE CONTACT FORM</h1>
+    <div class="maindiv">
     <div class="form">
-        <form method="post">
+        <form method="post" action="thankyou.html">
         <label>First Name</label><br>
-        <input type="text" name="name" id="" value="" placeholder="First Name" required>
+        <input type="text" name="name" class="input"  placeholder="First Name" required>
         <br/><br/>
         <label>Last Name</label><br>
-        <input type="text" name="name" id="" value="" placeholder="Last Name" required>
+        <input type="text" name="name" class="input"  placeholder="Last Name" required>
         <br/><br/>
         <label>Email</label><br>
-        <input type="email" name="email" id="" value="" placeholder="Email" required>
+        <input type="email" name="email" class="input"  placeholder="Email" required>
         <br/><br/>
         <label>Number</label><br>
-        <input type="number" name="number" id="" value="" placeholder="Phone Number" required>
+        <input type="number" name="number" class="input"  placeholder="Phone Number" required>
         <br/><br/>
         <label>City</label><br>
-        <select id="city" name="city">
+        <select  name="city" class="input">
             <option value=""></option>
             <option value="Mumbai">Mumbai</option>
             <option value="Delhi">Delhi</option>
@@ -34,10 +35,11 @@
          <br/><br/>
          <label>Message</label><br>
          <textarea name="message" id="" value="" placeholder="Message"></textarea><br><br>
-         <button type="button">Send</button>
+         <button type="submit">Send</button>
 
         </form>
     </div>
+</div>
     <p>&copy;2023 Simple Contact Form. All Rights Reserved | Design by Sufiyan Shaikh</p>
     
 </body>

@@ -1,19 +1,23 @@
 body{
     background-color:#00405c;
 }
+
 h1{
     
     color: white;
     text-align: center;
 }
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .form{
- display: flex;
  background-color: white;
  width: 500px;
- margin-left: 510px;
  padding-left: 20px;
  padding-top: 20px;
- padding-bottom: 20px;
+ padding-bottom: 20px; 
 }
 label{
     color: red;
@@ -23,23 +27,24 @@ textarea{
     width: 462px;
     height: 100px;
 }
-input{
+.input{
     margin-top: 10px;
     width: 462px;
 }
-select{
-    margin-top: 10px;
-    width: 462px;
-}
+
 button{
     width: 462px;
     height: 34px;
     border: none;
+    border-radius: 20px;
     background-color: #00998b;
     color: white;
     font-size: 18px;
 }
+button:hover{
+    background-color: black;
+}
 p{
-    margin-left: 510px;
+    text-align: center;
     color: white;
 }
